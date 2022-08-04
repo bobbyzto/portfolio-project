@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;800&display=swap');
+
+.black-background {
+  background-image: linear-gradient(to right, #3c3c3b 0%, black 100%);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  border-radius: 10px;
+}
+
+header, main, footer {
+  font-family: Catamaran, sans-serif;
+}
+
+nav {
+  text-align: center;
+  margin: -9px 0px 0px 0px;
+}
+
+header > div > nav > p {
+  font-size: 22px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 64px;
+  margin: 0px 0px;
+  padding: 20px 0px;
+}
+
+h2 {
+  font-weight: 300;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 2px 2px #fff000;
+}
+
+p {
+  margin: 8px 40px;
+  padding: 0px 40px 0px 40px
+}
+
+ul, ol {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px 80px 0px 80px;
+}
+
+h1, h2 {
+  background-image: linear-gradient(to right, #FFE0C3 0%, #ed474a 75%);
+  background-color: #FFE0C3;
+}
+
+footer > div > p, header > div > h1, h2 {
+  text-align: center;
+}
+
+footer {
+  margin: -10px 0px 0px 0px;
+}
+
+li {
+  margin-left: 60px;
+  padding: .25em;
+}
+
+.teal-background {
+  height: 100%;
+  background-color: #D4F1E6;
+  margin: 10px 120px 20px 120px;
+  border-radius: 10px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.wrapper {
+  height: 120px;
+}
+
+main > div > article > p {
+  font-size: 18px;
+}
+
+.copyright {
+  padding: 60px;
+  font-size: 16px;
+}
+
+.article-width {
+  padding: 40px 160px 40px 160px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+main > div, img {
+  box-shadow: 5px 5px 5px #3a3e3b;
+}
+
+article {
+  border: 1px solid #3a3e3b;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  padding: 0px 20px;
+}
+
+a:visited {
+  color: #f45d01;
+}
+
+a:hover {
+  color: #2d7dd2;
+}
+
+nav > p > a:link, nav > p > a:visited {
+  color: #d9c5b2;
+}
